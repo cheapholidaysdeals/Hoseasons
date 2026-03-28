@@ -11,7 +11,7 @@ key: str = os.environ.get("SUPABASE_SERVICE_KEY")
 supabase: Client = create_client(url, key)
 
 AWIN_URL = os.environ.get("AWIN_FEED_URL")
-TABLE_NAME = "your_table_name" # IMPORTANT: Change this to your table name
+TABLE_NAME = "Hoseasons" # IMPORTANT: Change this to your table name
 BATCH_SIZE = 1000 # Supabase handles 1000-2000 rows per batch well
 
 def main():
